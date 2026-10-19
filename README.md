@@ -104,7 +104,3 @@ This is a local, single-user learning demo, not a production order-management sy
 - Summary totals cover all orders, regardless of the active filters.
 - Case-insensitive search uses SQLite's built-in `lower()`, which does not provide full Unicode case folding.
 - Timestamps use UTC; customer and product length limits are checked in bytes.
-
-## Development notes
-
-The initial implementation and documentation were generated with assistance from ChatGPT. The applicant set up the application locally, ran the included helper checks, and performed the manual checks described above. This repository is shared as an AI-assisted learning sample, not as independently authored professional work.
